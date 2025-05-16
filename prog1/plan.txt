@@ -1,0 +1,9 @@
+471 Project Plan
+
+1. In this project we are tasked with writing the code which can create and train a neural network. The user must be able to specify the depth and width of the model in addition to whether the model is performing a classification or regression task. Further hyperparameters may also be specified such as minibatch size, learning rate, and initialization range. Finally, the model must be able to report its performance at checkpoints specified by the user.
+
+2. There are a few aspects of this project that we suspect will be challenging. The first being the process and math of gradient descent on the backwards pass. The second being that our unfamiliarity with numpy may lead to roadblocks as we have to sift through documentation to figure out how to properly use it. Finally, the final program is meant to be very modular, allowing for many different sizes of neural networks which may be difficult to implement cleanly.
+
+3. We will meet TWF 2-5pm until the project is complete and MTWF 12-2pm if we need additional meeting times.
+
+4. The resources we will use if we get stuck are; the slides on canvas, Logan's office hours, and the textbooks listed on the syllabus.

@@ -1,0 +1,7 @@
+1. Israel Avendano Jr & Christopher Holt
+
+2. To our knowledge, everything is implemented correctly and works as it should.
+
+3. Using the datasets given along with self-created syntetic data for regression. We thoroughly tested our network while repeatedly tweaking hyperparameters to ensure model was learning properly. We also debugged issues with things such as np.shape and various prints to ensure logic and linear algebra was executed properly. To ensure forward and backward pass worked correctly, we did calculations of a simple single layer nuereal network by hand and compared the results.
+
+4. At times, it was difficult to discern whether issues in model performance were caused by our implementation of the network or by faulty hyperparameters. Also, in our codebase, backpropogation was notably more difficult to fully implement than other methods, it gave us issues regarding compatible dimensions and properly managing the multiple stages of layers (front, middle, end) was a challenge.

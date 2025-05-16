@@ -1,0 +1,1 @@
+python prog1/prog1.py -train_feat data/dataset6.train_features.txt -train_target data/dataset6.train_targets.txt -dev_feat data/dataset6.dev_features.txt -dev_target data/dataset6.dev_targets.txt -nunits 8 -nlayers 4 -hidden_act tanh -type C -output_dim 1 -total_updates 100000 -learnrate 0.001 -init_range 1 -mb 512 -report_freq 500 -v
